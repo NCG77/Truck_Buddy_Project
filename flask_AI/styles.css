@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#prediction-result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: green;
+}
+
+/* New CSS styles */
+h1 {
+    color: blue;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#predict-btn {
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#predict-btn:hover {
+    background-color: darkorange;
+}
+
