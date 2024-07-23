@@ -1,3 +1,7 @@
+<img width="1100" alt="Screenshot (1008)" src="https://github.com/user-attachments/assets/00ec06e6-0754-4cae-a4c0-86a7017a789f">
+
+
+
 # Truck_Buddy_Project
 
 Predictive maintenance has gained significant attention in recent years. Our solution is a website that will serve as a maintenance reminder, servicing journal, nearest servicing station finder, and a comprehensive solution for all things related to the servicing and maintenance of heavy transport vehicles.
