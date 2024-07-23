@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Truck Maintenance Prediction</title>
+</head>
+<body>
+    <nav>
+        <img src="Images/logo.jpg" class="logo" alt="TruckBuddy Logo">
+        <ul>
+            <li><a href="/Maintenance/about.html">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="/Maintenance/Educational page english/index.html">Education</a></li>
+        </ul>
+        <div class="account-container">
+            <img src="Images/Account.jpg" class="Account" onclick="togglemenu()">
+            <div class="sub-menu-wrap" id="submenu">
+                <div class="sub-menu">
+                    <a href="$" class="sub-menu-link">
+                        <img src="Images/profile.png">
+                        <p>Edit Profile</p>
+                        <span>></span>
+                    </a>
+                    <a href="$" class="sub-menu-link">
+                        <img src="Images/setting.png">
+                        <p>Settings</p>
+                        <span>></span>
+                    </a>
+                    <a href="$" class="sub-menu-link">
+                        <img src="Images/logout.png">
+                        <p>Log Out</p>
+                        <span>></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Truck Maintenance Prediction</h1>
+        <input type="number" id="operation-time" placeholder="Operation Time">
+        <input type="text" id="location" placeholder="Location (desert/hilly/rainy/humid/all)">
+        <input type="text" id="company" placeholder="Company (tata/mahindra/ashok leyland/bharat benz/eicher motors)">
+        <input type="text" id="engine" placeholder="Engine">
+        <input type="number" id="milage" placeholder="Milage">
+        <button id="predict-btn">Get Prediction</button>
+        <div id="prediction-result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
