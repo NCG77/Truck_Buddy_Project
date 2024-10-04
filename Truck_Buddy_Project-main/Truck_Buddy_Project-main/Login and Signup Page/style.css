@@ -19,7 +19,6 @@
     background: #fff;
     padding: 5px;
     overflow: hidden;
-
 }
 .button-box{
     width: 220px;
@@ -35,7 +34,6 @@
     border: 0;
     outline:  none;
     position: relative;
-
 }
 #btn{
     top: 0;
@@ -46,7 +44,6 @@
     background: linear-gradient(to right, #ff105f,#ffad06);
     border-radius: 30px;
     transition: .5s;
-
 }
 .input-group{
     top: 180px;
@@ -64,7 +61,6 @@
     border-bottom: 1px solid #999;
     outline: none;
     background: transparent;
-
 }
 .submit-btn{
     width: 85%;
@@ -78,20 +74,16 @@
     border-radius: 30px;
     position: relative;
     top: 50px;
-
 }
 .checkbox{
     margin: 300px 100px 300px 100px;
-    
 }
 span{
     color: #777;
     font-size: 12px;
     bottom: 10px;
     position: absolute;
-
 }
-
 #login{
     left: 50px;
 }
